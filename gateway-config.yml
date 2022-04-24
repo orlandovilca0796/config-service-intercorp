@@ -14,6 +14,6 @@ spring:
           enabled: true
       routes:
         - id: customer-config
-          uri: lb://customer-service
+          uri: lb://customer-config
           predicates:
             - Path=/customer/**
